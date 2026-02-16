@@ -1,73 +1,113 @@
-# React + TypeScript + Vite
+# 🚀 AI-Powered E-Commerce Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern analytics dashboard built using **React, TypeScript, and Tailwind CSS** to visualize e-commerce data with high performance and scalable frontend architecture.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** https://ai-ecommerce-dashboard-mj75.vercel.app  
+💻 **GitHub Repository:** https://github.com/Sudeep259/ai-ecommerce-dashboard
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📊 Interactive analytics dashboard
+- ⚡ Real-time product search with debouncing
+- 🚀 Virtual scrolling for large datasets
+- 🔄 REST API integration with caching
+- 📱 Fully responsive layout
+- 🧩 Atomic design component architecture
+- ♿ Accessibility-friendly UI
+- ⚡ Optimized performance with lazy loading
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Frontend
+- React.js
+- TypeScript
+- Tailwind CSS
+- Vite
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Data & Visualization
+- Recharts
+- Axios (API integration)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Performance Optimization
+- Debounced search
+- Virtualized lists (react-window)
+- LocalStorage caching
+- Code splitting & lazy loading
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Deployment
+- Vercel
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📂 Project Structure
+src/
+│
+├── components/
+│ ├── atoms/
+│ └── organisms/
+│
+├── layouts/
+├── pages/
+├── hooks/
+├── services/
+└── assets/
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sudeep259/ai-ecommerce-dashboard.git
+Navigate into project:
+cd ai-ecommerce-dashboard
+Install dependencies:
+
+npm install
+Run development server:
+
+npm run dev
+
+Open:
+
+http://localhost:5173
+🧠 Performance Highlights
+
+Reduced unnecessary renders using debounced search
+
+Implemented virtual scrolling for handling large product datasets
+
+Client-side caching reduced API calls
+
+Optimized bundle loading using Vite
+
+📸 Preview
+
+## 📸 Application Preview
+
+## 📸 Preview
+
+<p align="center">
+  <img src="public/images/dashboard.png" width="45%" />
+  <img src="public/images/chart.png" width="45%" />
+</p>
+
+👨‍💻 Author
+
+Sudeep Kumar
+
+GitHub: https://github.com/Sudeep259
+
+LinkedIn: (add your LinkedIn here)
+
+⭐ If you like this project
+
+Give it a ⭐ on GitHub!
+
+---
+
