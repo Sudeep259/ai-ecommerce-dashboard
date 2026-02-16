@@ -48,13 +48,30 @@ src/
 │
 ├── components/
 │ ├── atoms/
+│ │ └── StatCard.tsx
 │ └── organisms/
+│ ├── Navbar.tsx
+│ ├── Sidebar.tsx
+│ ├── SalesChart.tsx
+│ └── ProductList.tsx
 │
 ├── layouts/
+│ └── DashboardLayout.tsx
+│
 ├── pages/
+│ └── Dashboard.tsx
+│
 ├── hooks/
+│ └── useDebounce.ts
+│
 ├── services/
-└── assets/
+│ └── productApi.ts
+│
+├── assets/
+│
+├── App.tsx
+├── main.tsx
+└── index.css
 
 ---
 
