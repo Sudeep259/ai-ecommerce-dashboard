@@ -90,18 +90,21 @@ Optimized bundle loading using Vite
 
 ## 📸 Application Preview
 
-## 📸 Preview
+### Dashboard
+![Dashboard](public/images/dashboard.png)
 
-<p align="center">
-  <img src="public/images/dashboard.png" width="45%" />
-  <img src="public/images/chart.png" width="45%" />
-</p>
+### Analytics Chart
+![Chart](public/images/chart.png)
+
+### Product Search
+![Search](public/images/search.png)
 
 👨‍💻 Author
 
 Sudeep Kumar
 
 GitHub: https://github.com/Sudeep259
+
 
 
 ⭐ If you like this project
