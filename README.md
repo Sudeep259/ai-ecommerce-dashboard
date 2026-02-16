@@ -44,36 +44,38 @@ A modern analytics dashboard built using **React, TypeScript, and Tailwind CSS**
 ---
 
 ## 📂 Project Structure
+
+```
 src/
 │
 ├── components/
-│ ├── atoms/
-│ │ └── StatCard.tsx
-│ └── organisms/
-│ ├── Navbar.tsx
-│ ├── Sidebar.tsx
-│ ├── SalesChart.tsx
-│ └── ProductList.tsx
+│   ├── atoms/
+│   │   └── StatCard.tsx
+│   │
+│   └── organisms/
+│       ├── Navbar.tsx
+│       ├── Sidebar.tsx
+│       ├── SalesChart.tsx
+│       └── ProductList.tsx
 │
 ├── layouts/
-│ └── DashboardLayout.tsx
+│   └── DashboardLayout.tsx
 │
 ├── pages/
-│ └── Dashboard.tsx
+│   └── Dashboard.tsx
 │
 ├── hooks/
-│ └── useDebounce.ts
+│   └── useDebounce.ts
 │
 ├── services/
-│ └── productApi.ts
+│   └── productApi.ts
 │
 ├── assets/
 │
 ├── App.tsx
 ├── main.tsx
 └── index.css
-
----
+```
 
 ## ⚙️ Installation & Setup
 
