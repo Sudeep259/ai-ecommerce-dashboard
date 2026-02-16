@@ -86,22 +86,10 @@ Client-side caching reduced API calls
 
 Optimized bundle loading using Vite
 
-📸 Preview
-
-## 📸 Application Preview
-
-### Dashboard
-![Dashboard](public/images/dashboard.png)
-
-### Analytics Chart
-![Chart](public/images/chart.png)
-
-### Product Search
-![Search](public/images/search.png)
 
 👨‍💻 Author
 
-Sudeep Kumar
+Sudeep Kumar S M
 
 GitHub: https://github.com/Sudeep259
 
