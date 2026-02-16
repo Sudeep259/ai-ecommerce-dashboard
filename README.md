@@ -103,7 +103,6 @@ Sudeep Kumar
 
 GitHub: https://github.com/Sudeep259
 
-LinkedIn: (add your LinkedIn here)
 
 ⭐ If you like this project
 
